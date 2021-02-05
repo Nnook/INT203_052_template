@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,36 +21,11 @@
 </head>
 
 <body>
-  <div id="app" class="h-screen max-w-2xl bg-indigo-200 mx-auto">
-
-    <p class="text-pink-500 text-lg uppercase tracking-wide font-semibold">introduction</p>
-    <h1 class="text-5xl font-extrabold ml-5">Tailwind stories.</h1>
-
-    <div class="flex justify-center items-center space-x-3">
-      <div class="rounded-full p-1 border bg-gradient-to-tr from-yellow-400 to-pink-500">
-        <button class="bg-white p-1 rounded-full">
-          <img class="h-24 w-24 rounded-full"
-            src="https://i.pinimg.com/originals/e8/33/12/e83312c0ec3168c01b0f655b7ddd520a.jpg" alt="luffy">
-        </button>       
-      </div>
-      <div class="rounded-full p-1 border bg-gradient-to-tr from-yellow-400 to-pink-500">
-        <button class="bg-white p-1 rounded-full">
-          <img class="h-24 w-24 rounded-full"
-            src="https://rankmajority.com/wp-content/uploads/2020/04/Nami.png" alt="nami">
-        </button>       
-      </div>
-      <div class="rounded-full p-1 border bg-gradient-to-tr from-yellow-400 to-pink-500">
-        <button class="bg-white p-1 rounded-full">
-          <img class="h-24 w-24 rounded-full"
-            src="https://rankmajority.com/wp-content/uploads/2020/04/Shirahoshi-One-Piece.jpg" alt="shirahoshi">
-        </button>       
-      </div>
-      <div class="rounded-full p-1 border bg-gradient-to-tr from-yellow-400 to-pink-500">
-        <button class="bg-white p-1 rounded-full">
-          <img class="h-24 w-24 rounded-full"
-            src="https://static.tumblr.com/3d8000aa73c81825c47e04f05f4cfd93/pnc0i4p/ya0p53yje/tumblr_static_239v0cbdjie8kwk0kcogw04og.jpg" alt="zoro">
-        </button>       
-      </div>
+  <div id="app" class="h-screen w-full bg-gray-200 flex items-start justify-start">
+    <img src="./images/1.jpg" class="w-1/3 h-full">
+    <div class="w-full flex items-center justify-end">
+      <i class="material-icons">face</i>
+      <p class="font-semibold text-xl tracking-wider uppercase px-3"> {{ msg }}</p>
     </div>
   </div>
 
